@@ -1,0 +1,193 @@
+body{
+    margin:0%;
+}
+
+nav{
+    background-color: #2e933c;
+    display: flex;
+    justify-content: space-between;
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    div{
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+
+        *{
+            text-align: end;
+        }
+    }
+
+    ul{
+        display: flex;
+        align-items: center;
+        column-gap: 15px;
+
+        li{
+            list-style: none;
+        }
+
+    }
+}
+
+
+.category_align{
+    display:block;
+    margin: auto;
+    width: 1000px;
+}
+
+.index_align{
+    display:block;
+    margin: auto;
+    width: 1300px;
+    text-align: end;
+}
+
+.index_flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    justify-content: center;
+}
+
+.category_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+a.cloth{
+    display: block;
+    color:black;
+    text-decoration: none;
+    width: 200px;
+    max-width: 200px;
+    text-align: center;
+    padding:10px;
+    border: solid black 1px;
+    border-radius: 25px;
+
+    .name{
+        font-size: 25px;
+        height:60px;
+    }
+
+    .cloth_image{
+        width:170px;
+        height: 215px;
+    }
+
+    .price{
+        text-align: start;
+        margin-left: 15px;
+        font-size: 1.5em;
+    }
+}
+
+.connect_title{
+    text-align: center;
+}
+
+.center_form{
+    display: block;
+    margin: 20px auto;
+    width:200px;
+
+    .flex_form{
+        display: flex;
+        flex-direction: column;
+
+        input{
+            margin-bottom:20px;
+        }
+    }
+}
+
+.error{
+    display: block;
+    text-align: center;
+    color:red;
+    border: red;
+    margin:10px;
+}
+
+.signin_link, .register_link{
+    margin:auto;
+    width: 200px;
+    text-align: center;
+
+    a{
+        font-size: smaller;
+        color:blue
+    }
+}
+
+.register_success{
+    display: block;
+    margin:50px auto 0px;
+    text-align: center;
+    color: #2e933c;
+}
+
+.not_connected{
+    width:300px;
+    margin:50px auto;
+    display: block;
+    
+    >div{
+        font-size: large;
+        margin-bottom: 20px;
+    }
+
+    a{
+        text-align: center;
+    }
+}
+
+.flex_profil{
+    display: flex;
+}
+
+.profil{
+    padding:15px;
+    margin: 50px auto;
+    width:1000px;
+    border: #2e933c solid 2px;
+    border-radius: 5px;
+
+    .profil_name, .profil_order{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .profil_modification{
+        margin:20px 0px;
+    }
+}
+
+.section_cloth_selection{
+    margin:auto;
+    width: 1000px;
+
+    div, select{
+        margin-bottom: 20px;
+    }
+
+    .flex_cloth_section{
+        display: flex;
+    }
+
+    .name_cloth_selection{
+        font-size: 30px;
+    }
+
+    .select_cloth_selection, .submit_cloth_selection{
+        display: block;
+    }
+}
